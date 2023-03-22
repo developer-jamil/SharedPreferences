@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="30dp"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <!--String Store-->
+    <Button
+        android:id="@+id/stringSaveId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="String Save"
+        android:textAllCaps="false" />
+
+    <!--Int Store-->
+    <Button
+        android:id="@+id/intSaveId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Int Save"
+        android:textAllCaps="false" />
+
+    <!--Boolean Store-->
+    <Button
+        android:id="@+id/booleanSaveId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Boolean Save"
+        android:textAllCaps="false" />
+
+</LinearLayout>
